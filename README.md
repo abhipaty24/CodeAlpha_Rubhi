@@ -67,9 +67,7 @@ cd database
 node seed.js
 ```
 
-This creates the admin account:
-- **Email:** mallariabhi@gmail.com
-- **Password:** Abhi@2006
+
 
 ### 6. Start the server
 
