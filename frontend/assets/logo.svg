@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" fill="none">
+  <!-- Dark background -->
+  <rect width="200" height="220" fill="#2e2a1e"/>
+
+  <!-- 
+    Stylized R with organic leaf/swirl on top-right of the R bowl.
+    Color: #b8bc52 (olive yellow-green)
+    The R has:
+    - A thick vertical stem on the left
+    - A round bowl on the upper right
+    - A diagonal leg kicking to the bottom right
+    - A leaf shape curling over the top of the bowl
+    - A small tail swoosh at the bottom left of the stem
+  -->
+
+  <!-- Main R shape -->
+  <g fill="#b5be4e">
+
+    <!-- Vertical stem -->
+    <rect x="30" y="28" width="28" height="140" rx="6"/>
+
+    <!-- Bowl of R (right side filled) -->
+    <path d="
+      M 58 28
+      Q 58 28 100 28
+      Q 138 28 140 60
+      Q 142 88 118 100
+      Q 138 100 152 128
+      Q 158 142 148 150
+      Q 140 156 132 144
+      L 116 118
+      Q 108 105 95 104
+      L 58 104
+      Z
+    "/>
+
+    <!-- Bowl inner hole (dark cutout to make hollow bowl) -->
+    <path d="
+      M 58 48
+      L 96 48
+      Q 118 48 120 64
+      Q 122 80 106 86
+      L 58 86
+      Z
+    " fill="#2e2a1e"/>
+
+    <!-- Leaf curling over the top of the R bowl -->
+    <!-- Main leaf body -->
+    <path d="
+      M 100 22
+      Q 118 4  142 8
+      Q 148 20 138 30
+      Q 120 26 108 36
+      Q 96 42 92 32
+      Q 90 26 100 22
+      Z
+    "/>
+
+    <!-- Leaf mid-vein (dark line) -->
+    <path d="M 102 24 Q 122 14 140 12"
+          stroke="#2e2a1e" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Bottom swoosh / tail of the R going bottom-left -->
+    <path d="
+      M 30 168
+      Q 20 175 18 186
+      Q 28 194 44 185
+      Q 54 178 58 168
+    " fill="#b5be4e"/>
+
+  </g>
+
+  <!-- RUBHI wordmark -->
+  <text
+    x="100" y="204"
+    font-family="'Trebuchet MS', 'Arial Narrow', Arial, sans-serif"
+    font-size="20"
+    font-weight="700"
+    fill="#b5be4e"
+    text-anchor="middle"
+    letter-spacing="10">RUBHI</text>
+</svg>
